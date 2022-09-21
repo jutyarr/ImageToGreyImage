@@ -4,8 +4,10 @@ Conver Image to Grey Image
 //Create a variable of type Bitmap to store the path of uploaded image
  Bitmap bmp;
 
-//Upload button Image wich uploads the image and and assign its path to the first picturebox control then calls the ConverToGray() method
-private void BtnUpload_Click(object sender, EventArgs e)
+
+        
+        //Upload button Image wich uploads the image and and assign its path to the first picturebox control then calls the ConverToGray() method
+        private void BtnUpload_Click(object sender, EventArgs e)
         {
           OpenFileDialog openFileDialog = new OpenFileDialog();
             openFileDialog.Filter = "Choose a photo (*.jpg; *.png)|*.jpg; *.png |All files (*.*)|*.*";
