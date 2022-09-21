@@ -1,6 +1,6 @@
 # ImageToGreyImage
 Conver Image to Grey Image
-
+<img src="https://raw.githubusercontent.com/jutyarr/ImageToGreyImage/master/screenshotImageGray.PNG" />
 //Create a variable of type Bitmap to store the path of uploaded image
  Bitmap bmp;
 
