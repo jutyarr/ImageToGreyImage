@@ -12,6 +12,7 @@ namespace PictureToGreyPicture
 {
     public partial class Form1 : Form
     {
+        public static string name { get; set; }
         public Form1()
         {
             InitializeComponent();
@@ -27,6 +28,7 @@ namespace PictureToGreyPicture
                 bmp = new Bitmap(path);
                 pictureBox1.Image = bmp;
                 ConverToGray();
+
             }
         }
 
